@@ -6,3 +6,6 @@ class Employee:
         self.email = first + last + '@gmail.com'
     def fullname(self):
         print(self.first + ' ' + self.last)
+
+Josefina = Employee('Josefina', 'Costa', 90000)
+Josefina.fullname()
